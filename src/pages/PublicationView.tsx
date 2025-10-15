@@ -412,7 +412,12 @@ const PublicationView = () => {
                   <Button
                     variant="outline"
                     className="w-full justify-start gap-2"
-                    onClick={() => window.open(provider.instagram!, "_blank")}
+                    onClick={() => {
+                      const instagramHandle = provider.instagram!.startsWith("@")
+                        ? provider.instagram!.substring(1)
+                        : provider.instagram!;
+                      window.open(`https://www.instagram.com/${instagramHandle}`, "_blank");
+                    }}
                   >
                     <Instagram className="h-4 w-4 text-pink-500" />
                     Instagram
