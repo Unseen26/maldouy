@@ -56,10 +56,10 @@ const Navbar = () => {
             onClick={() => navigate('/')}
           >
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-2xl font-bold text-white">M</span>
+              <span className="text-2xl font-bold text-white">A</span>
             </div>
             <span className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              Maldo
+              Aura
             </span>
           </div>
 

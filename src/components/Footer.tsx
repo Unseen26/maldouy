@@ -9,9 +9,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-                <span className="text-2xl font-bold text-white">M</span>
+                <span className="text-2xl font-bold text-white">A</span>
               </div>
-              <span className="text-2xl font-bold">Maldo</span>
+              <span className="text-2xl font-bold">Aura</span>
             </div>
             <p className="text-sm text-background/70 mb-4">
               Todos los servicios en un solo lugar. Conectamos personas con profesionales de confianza.
@@ -57,8 +57,8 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-background/70">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:info@maldo.uy" className="hover:text-primary transition-smooth">
-                  info@maldo.uy
+                <a href="mailto:info@Aura.uy" className="hover:text-primary transition-smooth">
+                  info@Aura.uy
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -69,14 +69,14 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5" />
-                <span>Maldonado, Uruguay</span>
+                <span>Durazno, Uruguay</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-background/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-background/70">
-          <p>&copy; 2024 Maldo. Todos los derechos reservados.</p>
+          <p>&copy; 2024 Aura. Todos los derechos reservados.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary transition-smooth">Términos y condiciones</a>
             <a href="#" className="hover:text-primary transition-smooth">Política de privacidad</a>

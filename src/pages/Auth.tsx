@@ -151,9 +151,9 @@ const Auth = () => {
         <Card>
           <CardHeader className="text-center">
             <div className="mx-auto w-12 h-12 rounded-lg bg-gradient-hero flex items-center justify-center mb-4">
-              <span className="text-2xl font-bold text-white">M</span>
+              <span className="text-2xl font-bold text-white">A</span>
             </div>
-            <CardTitle className="text-2xl">Bienvenido a Maldo</CardTitle>
+            <CardTitle className="text-2xl">Bienvenido a Aura</CardTitle>
             <CardDescription>
               Encuentra los mejores servicios profesionales
             </CardDescription>
