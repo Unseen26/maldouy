@@ -10,7 +10,7 @@ import { Card } from '@/components/ui/card';
 import { Checkbox } from '@/components/ui/checkbox';
 import { toast } from 'sonner';
 import Navbar from '@/components/Navbar';
-import { Loader2 } from 'lucide-react';
+import { Loader2, ArrowLeft } from 'lucide-react';
 import { providerProfileSchema } from '@/lib/validation';
 const sb = supabase as any;
 
@@ -157,6 +157,10 @@ const ProviderProfile = () => {
       <Navbar />
       <main className="container px-4 py-12 max-w-3xl">
         <div className="mb-8">
+          <Button variant="ghost" onClick={() => navigate(-1)} className="mb-4">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Volver
+          </Button>
           <h1 className="text-3xl md:text-4xl font-bold mb-2">
             Completá tu perfil de proveedor
           </h1>
